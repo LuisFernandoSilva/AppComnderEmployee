@@ -1,0 +1,11 @@
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\OutSystems.NssExtensionAzure.dll
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\OutSystems.NssExtensionAzure.xml
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\mscorlib.dll
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\pt-BR\mscorlib.resources.dll
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\normidna.nlp
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\normnfc.nlp
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\normnfd.nlp
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\normnfkc.nlp
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\bin\normnfkd.nlp
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\obj\Release\ExtensionAzure.csprojResolveAssemblyReference.cache
+D:\outsystem\projects\AppCommnderEmployee\ExtensionAzure\Source\NET\obj\Release\OutSystems.NssExtensionAzure.dll

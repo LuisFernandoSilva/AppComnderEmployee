@@ -1,0 +1,1040 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OutSystems.NssExtensionAzure</name>
+    </assembly>
+    <members>
+        <member name="T:OutSystems.NssExtensionAzure.ENEmployeeEntityRecord">
+            <summary>
+            Entity <code>ENEmployeeEntityRecord</code> that represents the Service Studio entity
+             <code>Employee</code> <p> Description: Save the employees of the company and use that for login i
+            n the sistem too</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeeEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeeEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeeEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENEmployeeEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENEmployeePhotoEntityRecord">
+            <summary>
+            Entity <code>ENEmployeePhotoEntityRecord</code> that represents the Service Studio entity
+             <code>EmployeePhoto</code> <p> Description: A Photo of the employee</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeePhotoEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeePhotoEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENEmployeePhotoEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENEmployeePhotoEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENPayrollEntityRecord">
+            <summary>
+            Entity <code>ENPayrollEntityRecord</code> that represents the Service Studio entity
+             <code>Payroll</code> <p> Description: Save the payroll files</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENPayrollEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENTimeSheetEntityRecord">
+            <summary>
+            Entity <code>ENTimeSheetEntityRecord</code> that represents the Service Studio entity
+             <code>TimeSheet</code> <p> Description: Save the TimeSheet  files</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENTimeSheetEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENFaQEntityRecord">
+            <summary>
+            Entity <code>ENFaQEntityRecord</code> that represents the Service Studio entity <code>FaQ</code>
+             <p> Description: Question and Answers fo the employees</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENFaQEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENFaQEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENFaQEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENFaQEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENNewsEntityRecord">
+            <summary>
+            Entity <code>ENNewsEntityRecord</code> that represents the Service Studio entity <code>News</code>
+             <p> Description: Part of the Home in the carrossel, Inform the employee of the last news , have
+            a title and a small description and a url of the complete news</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENNewsEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENNewsEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENNewsEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENNewsEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENBranchEntityRecord">
+            <summary>
+            Entity <code>ENBranchEntityRecord</code> that represents the Service Studio entity
+             <code>Branch</code> <p> Description: Static entitites</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENBranchEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENBranchEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENBranchEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENBranchEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENPayrollPDFEntityRecord">
+            <summary>
+            Entity <code>ENPayrollPDFEntityRecord</code> that represents the Service Studio entity
+             <code>PayrollPDF</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollPDFEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollPDFEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENPayrollPDFEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENPayrollPDFEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENTimeSheetPDFEntityRecord">
+            <summary>
+            Entity <code>ENTimeSheetPDFEntityRecord</code> that represents the Service Studio entity
+             <code>TimeSheetPDF</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetPDFEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetPDFEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTimeSheetPDFEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENTimeSheetPDFEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENDepartmentEntityRecord">
+            <summary>
+            Entity <code>ENDepartmentEntityRecord</code> that represents the Service Studio entity
+             <code>Department</code> <p> Description: Static entitites</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENDepartmentEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENDepartmentEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENDepartmentEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENDepartmentEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENJobTitleEntityRecord">
+            <summary>
+            Entity <code>ENJobTitleEntityRecord</code> that represents the Service Studio entity
+             <code>JobTitle</code> <p> Description: Static entitites</p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENJobTitleEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENJobTitleEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENJobTitleEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENJobTitleEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.ENTesteDOTesteEntityRecord">
+            <summary>
+            Entity <code>ENTesteDOTesteEntityRecord</code> that represents the Service Studio entity
+             <code>TesteDOTeste</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTesteDOTesteEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTesteDOTesteEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.ENTesteDOTesteEntityRecord.ReadIM(OutSystems.NssExtensionAzure.ENTesteDOTesteEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCEmployeeRecord">
+            <summary>
+            Structure <code>RCEmployeeRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeeRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeeRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeeRecord.ReadIM(OutSystems.NssExtensionAzure.RCEmployeeRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCEmployeePhotoRecord">
+            <summary>
+            Structure <code>RCEmployeePhotoRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeePhotoRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeePhotoRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCEmployeePhotoRecord.ReadIM(OutSystems.NssExtensionAzure.RCEmployeePhotoRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCPayrollRecord">
+            <summary>
+            Structure <code>RCPayrollRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollRecord.ReadIM(OutSystems.NssExtensionAzure.RCPayrollRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCTimeSheetRecord">
+            <summary>
+            Structure <code>RCTimeSheetRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetRecord.ReadIM(OutSystems.NssExtensionAzure.RCTimeSheetRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCFaQRecord">
+            <summary>
+            Structure <code>RCFaQRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCFaQRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCFaQRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCFaQRecord.ReadIM(OutSystems.NssExtensionAzure.RCFaQRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCNewsRecord">
+            <summary>
+            Structure <code>RCNewsRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCNewsRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCNewsRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCNewsRecord.ReadIM(OutSystems.NssExtensionAzure.RCNewsRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCBranchRecord">
+            <summary>
+            Structure <code>RCBranchRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCBranchRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCBranchRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCBranchRecord.ReadIM(OutSystems.NssExtensionAzure.RCBranchRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCPayrollPDFRecord">
+            <summary>
+            Structure <code>RCPayrollPDFRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollPDFRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollPDFRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCPayrollPDFRecord.ReadIM(OutSystems.NssExtensionAzure.RCPayrollPDFRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord">
+            <summary>
+            Structure <code>RCTimeSheetPDFRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord.ReadIM(OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCDepartmentRecord">
+            <summary>
+            Structure <code>RCDepartmentRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCDepartmentRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCDepartmentRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCDepartmentRecord.ReadIM(OutSystems.NssExtensionAzure.RCDepartmentRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCJobTitleRecord">
+            <summary>
+            Structure <code>RCJobTitleRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCJobTitleRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCJobTitleRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCJobTitleRecord.ReadIM(OutSystems.NssExtensionAzure.RCJobTitleRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RCTesteDOTesteRecord">
+            <summary>
+            Structure <code>RCTesteDOTesteRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTesteDOTesteRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTesteDOTesteRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RCTesteDOTesteRecord.ReadIM(OutSystems.NssExtensionAzure.RCTesteDOTesteRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLEmployeeRecordList">
+            <summary>
+            RecordList type <code>RLEmployeeRecordList</code> that represents a record list of
+             <code>Employee</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeeRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeeRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeeRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCEmployeeRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeeRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeeRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList">
+            <summary>
+            RecordList type <code>RLEmployeePhotoRecordList</code> that represents a record list of
+             <code>EmployeePhoto</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCEmployeePhotoRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLEmployeePhotoRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLPayrollRecordList">
+            <summary>
+            RecordList type <code>RLPayrollRecordList</code> that represents a record list of
+             <code>Payroll</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCPayrollRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLTimeSheetRecordList">
+            <summary>
+            RecordList type <code>RLTimeSheetRecordList</code> that represents a record list of
+             <code>TimeSheet</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCTimeSheetRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLFaQRecordList">
+            <summary>
+            RecordList type <code>RLFaQRecordList</code> that represents a record list of <code>FaQ</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLFaQRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLFaQRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLFaQRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCFaQRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLFaQRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLFaQRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLNewsRecordList">
+            <summary>
+            RecordList type <code>RLNewsRecordList</code> that represents a record list of <code>News</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLNewsRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLNewsRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLNewsRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCNewsRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLNewsRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLNewsRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLBranchRecordList">
+            <summary>
+            RecordList type <code>RLBranchRecordList</code> that represents a record list of
+             <code>Branch</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLBranchRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLBranchRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLBranchRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCBranchRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLBranchRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLBranchRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList">
+            <summary>
+            RecordList type <code>RLPayrollPDFRecordList</code> that represents a record list of
+             <code>PayrollPDF</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCPayrollPDFRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLPayrollPDFRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList">
+            <summary>
+            RecordList type <code>RLTimeSheetPDFRecordList</code> that represents a record list of
+             <code>TimeSheetPDF</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCTimeSheetPDFRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTimeSheetPDFRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLDepartmentRecordList">
+            <summary>
+            RecordList type <code>RLDepartmentRecordList</code> that represents a record list of
+             <code>Department</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLDepartmentRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLDepartmentRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLDepartmentRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCDepartmentRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLDepartmentRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLDepartmentRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLJobTitleRecordList">
+            <summary>
+            RecordList type <code>RLJobTitleRecordList</code> that represents a record list of
+             <code>JobTitle</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLJobTitleRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLJobTitleRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLJobTitleRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCJobTitleRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLJobTitleRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLJobTitleRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList">
+            <summary>
+            RecordList type <code>RLTesteDOTesteRecordList</code> that represents a record list of
+             <code>TesteDOTeste</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExtensionAzure.RCTesteDOTesteRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExtensionAzure.RLTesteDOTesteRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+    </members>
+</doc>
